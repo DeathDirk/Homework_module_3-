@@ -18,7 +18,7 @@ print(result2)
 
 # def single_root_words(rot_word, *other_words):
 #     same_words = []
-#
+
 #     for i in other_words:
 #         rot_word = str(rot_word)
 #         i = str(i)
