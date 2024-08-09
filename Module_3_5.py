@@ -7,6 +7,7 @@ def get_multiplied_digits(number):
              return first * get_multiplied_digits(int(str_number[1:]))
         else:
              return first
+
     #first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1: else  return first #не понял как в
     # тернарный вид привести
 
