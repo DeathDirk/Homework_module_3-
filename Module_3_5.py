@@ -1,15 +1,17 @@
 def get_multiplied_digits(number):
     str_number = str(number)
     first = int(str_number[0])
-    if len(str_number) > 1:
-         return first * get_multiplied_digits(int(str_number[1:]))
-    else:
-         return first
-    # first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1: else  return first не понял как в
+    if first != 0:
+        if len(str_number) > 1:
+
+             return first * get_multiplied_digits(int(str_number[1:]))
+        else:
+             return first
+    #first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1: else  return first #не понял как в
     # тернарный вид привести
 
 
-result = get_multiplied_digits(453745686745)
+result = get_multiplied_digits(40203)
 print(result)
 
 # Напишите функцию get_multiplied_digits и параметр number в ней.
