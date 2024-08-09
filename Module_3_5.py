@@ -8,12 +8,12 @@ def get_multiplied_digits(number):
         else:
              return first
     else:
-        pass
-    #first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1: else  return first #не понял как в
+        return 1
+    #return first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1: else  return first #не понял как в
     # тернарный вид привести
+    #return first * get_multiplied_digits(int(str_number[1:])) if len(str_number) > 1 else first #работает
 
-
-result = get_multiplied_digits(40203)
+result = get_multiplied_digits(402030)
 print(result)
 
 # Напишите функцию get_multiplied_digits и параметр number в ней.
